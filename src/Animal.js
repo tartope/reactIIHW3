@@ -1,4 +1,5 @@
 import React from 'react'
+import './Animal.scss'
 
 export const Animal = ({ data }) => {
     // console.log(data)
@@ -13,7 +14,7 @@ export const Animal = ({ data }) => {
 
 
   return (
-    <div className='Animal'>
+    <div className='animal'>
         <table>
             <thead></thead>
             <tbody>
